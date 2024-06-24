@@ -1,0 +1,22 @@
+{
+  "name": "hashtable-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "clear": "rm -rf dist/*",
+    "run": "rm -rf dist/* && npx tsc && node dist/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "lodash": "^4.17.21",
+    "typescript": "^5.5.2"
+  },
+  "dependencies": {
+    "faker": "^6.6.6"
+  }
+}
